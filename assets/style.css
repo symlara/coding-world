@@ -1,3 +1,11 @@
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --tertiary-color: #808080 ;
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,7 +15,7 @@
 
 
 
-/* header section */
+/* header/ nav section */
 header {
     padding: 20px 35px;
     background-image: url("../assets/images/AdobeStock_337254896.jpeg");
@@ -24,7 +32,7 @@ header {
 
   header a {
       text-decoration: none;
-      color: #ffffff;
+      color: var(--primary-color);
       font-weight: 900;
   }
 
@@ -48,20 +56,25 @@ header nav ul {
   header ul li {
     padding: 10px 15px;
     font-size: 26px;
-    color: #ffffff;
+    color: var(--primary-color);
     font-weight: 900;
   }
 
   header ul li a {
       font-size: 26px;
   }
+
+  header ul li a:hover {
+      background-color: var(--secondary-color);
+      color: var(--primary-color);
+      border-radius: 16px;
+  }
+
   /* header section end */
 
 
 
-  body, html {
-      height: 100%;
-  }
+ 
   /* hero styles start */
 
   .hero-image {
@@ -90,7 +103,7 @@ header nav ul {
     }
     
     .bio p{
-        color: #000000;
+        color: var(--secondary-color);
         width: 80%;
         margin: 0 auto;
         font-size: 18px;
@@ -98,9 +111,7 @@ header nav ul {
         line-height: 1.7;
         flex-wrap: wrap;
         text-align: justify;
-        display: inline-block;
         float: right;
-        
     }
 
    .bio h2 {
@@ -109,15 +120,57 @@ header nav ul {
        padding-left: 30px;
    }
 
+   /* about me section end */ 
+   
+   /* border box model for work section also */
+
    .projects h2 {
        font-size: 30px;
        padding-top: 15%;
        padding-left: 30px;
+       display: inline-block;
+       flex-wrap: wrap;
    }
 
-   .contact {
-       font-size: 20px;
-       padding: 15%;
-       padding-left: 30px;
-       font-weight: bold;
-   }
+   .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-auto-flow: dense;
+    padding-left: 20%;
+  }
+
+  .grid-item-1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    border: 5px solid var(--secondary-color);
+    margin: 5px auto;
+    background-image: url("../run-buddy/assets/images/hero-bg.jpg");
+    color: var(--primary-color);
+    text-shadow: 0 2px 0 rgba(122, 59, 59, 0.07);
+    width: 700px;
+    height: 200px;
+  }
+
+  .grid-item-2 {
+      font-size: 40px;
+      display: flex;
+      border: 5px solid var(--secondary-color);
+      margin: 5px auto;
+      background-image: url(../horiseon-fresh/assets/images/digital-marketing-meeting.jpg);
+      color: var(--secondary-color);
+      width: 100%;
+      height: 100px;
+  }
+
+   
+  .contact h2 {
+    display: inline-block;
+    font-size: 30px;
+    padding-top: 2px;
+    padding-left: 30px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
