@@ -10,6 +10,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #808080
   }
   
 
@@ -65,9 +66,9 @@ header nav ul {
   }
 
   header ul li a:hover {
-      background-color: var(--secondary-color);
-      color: var(--primary-color);
-      border-radius: 16px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 16px;
   }
 
   /* header section end */
@@ -150,7 +151,7 @@ header nav ul {
     background-image: url("./images/hero-bg.jpg");
     text-shadow: 0 2px 0 rgba(122, 59, 59, 0.07);
     width: 700px;
-    height: 200px;
+    height: 400px;
     box-sizing: border-box;
 
   }
@@ -161,8 +162,8 @@ header nav ul {
   }
   
 
-  .grid-item-1:hover {
-      text-shadow: none;
+  .grid-container:hover, .grid-item::after{
+      opacity: 1;
   }
 
   .grid-item-2 {
@@ -174,6 +175,10 @@ header nav ul {
       color: var(--secondary-color);
       width: 100%;
       height: 100px;
+  }
+
+  .grid-item-2 a {
+      text-decoration: none;
   }
 
    
