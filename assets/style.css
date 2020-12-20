@@ -171,10 +171,10 @@ header nav ul {
 
   .grid-item-1:hover {
       opacity: 1;
-      background-color: var(--tertiary-color);
       color: var(--primary-color);
       border-radius: 16px;
-      opacity: 1;
+      opacity: 2;
+      
   }
 
   .grid-item-2:hover {
@@ -259,6 +259,12 @@ header nav ul {
       padding: 30px 15px;
     }
 
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+
     .bio h2 {
       flex: 1 100%;
       text-align: center;
@@ -270,13 +276,21 @@ header nav ul {
       margin-top: 15px;
       margin-bottom: 15px;
     }
+
+    .grid-item-2 {
+      justify-items: center;
+      height: 100px;
+      width: 100%;
+    }
   }
 
     /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
     @media screen and (max-width: 575px) {
-      .hero-form button {
-        width: 100%;
+      header nav ul {
+        margin-top: 20px;
+        width: 80%;
+        justify-content: center;
       }
 
       .bio img {
@@ -287,11 +301,11 @@ header nav ul {
 
       .bio h2 {
         flex: 1 100%;
-        text-align: center;
+        align-items: center;
       }
 
       .bio p {
-        width: 100%;
+       width: 100%;
       }
 
       .bio img {
@@ -309,19 +323,24 @@ header nav ul {
 
       .grid-container {
         justify-items: center;
+        width: 100%;
      
       }
 
       .grid-item-1 {
-        justify-items: center;
+        justify-content: center;
         height: 100px;
         width: 100%;
       }
 
       .grid-item-2 {
-        justify-items: center;
+        justify-content: center;
         height: 100px;
         width: 100%;
+      }
+
+      .projects {
+        justify-items: center;
       }
 
     }
