@@ -102,7 +102,7 @@ header nav ul {
         width: 25%;
     }
     
-    .bio p{
+    .bio p {
         color: var(--secondary-color);
         width: 80%;
         margin: 0 auto;
@@ -112,12 +112,19 @@ header nav ul {
         flex-wrap: wrap;
         text-align: justify;
         float: right;
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
     }
 
    .bio h2 {
        font-size: 30px;
        display: inline-block;
        padding-left: 30px;
+       color: var(--primary-color);
+   }
+
+   .about-me  {
+     background-color: var(--secondary-color);
    }
 
    /* about me section end */ 
@@ -132,20 +139,21 @@ header nav ul {
 
    .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 20px;
     grid-auto-flow: dense;
     padding-left: 20%;
     flex-wrap: wrap;
     align-items: center;
+    background-color: var(--secondary-color);
   }
 
   .grid-item-1 {
     font-size: 40px;
     display: inline-block;
     justify-content: center;
-    border: 3px solid var(--secondary-color);
+    border: 1px solid var(--secondary-color);
     margin: 5px auto;
     background-image: url("./images/hero-bg.jpg");
     text-shadow: 0 2px 0 rgba(122, 59, 59, 0.07);
@@ -154,24 +162,34 @@ header nav ul {
     box-sizing: border-box;
   }
 
+
   .grid-item-1 a {
       text-decoration:  none;
       color: var(--primary-color);
   }
   
 
-  .grid-container:hover, .grid-item::after{
+  .grid-item-1:hover {
       opacity: 1;
+      background-color: var(--tertiary-color);
+      color: var(--primary-color);
+      border-radius: 16px;
+      opacity: 1;
+  }
+
+  .grid-item-2:hover {
+    opacity: 1;
+    border-radius: 20px;
   }
 
   .grid-item-2 {
       font-size: 40px;
       display: flex;
-      border: 2px solid var(--secondary-color);
+      border: 1px solid var(--secondary-color);
       margin: 5px auto;
       background-image: url("./images/digital-marketing-meeting.jpg");
       color: var(--secondary-color);
-      width: 200%;
+      width: 80%;
       height: 300px;
   }
 
@@ -202,3 +220,108 @@ header nav ul {
 
 /* media queries section */
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+    }
+  
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .bio, .projects {
+    width: 100%;
+  }
+
+  .contact {
+    width: 80%;
+  }
+}
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+
+    .bio h2 {
+      flex: 1 100%;
+      text-align: center;
+    }
+
+    .bio img {
+      flex: 0 32%;
+      margin-right: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }
+
+    /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+    @media screen and (max-width: 575px) {
+      .hero-form button {
+        width: 100%;
+      }
+
+      .bio img {
+        flex: 0 32%;
+        margin-right: 0;
+        width: 200px;
+      }
+
+      .bio h2 {
+        flex: 1 100%;
+        text-align: center;
+      }
+
+      .bio p {
+        width: 100%;
+      }
+
+      .bio img {
+      flex: 0 32%;
+      margin-right: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      }
+    
+      .projects h2  {
+        flex: 1 100%;
+        text-align: center;
+      
+      }
+
+      .grid-container {
+        justify-items: center;
+     
+      }
+
+      .grid-item-1 {
+        justify-items: center;
+        height: 100px;
+        width: 100%;
+      }
+
+      .grid-item-2 {
+        justify-items: center;
+        height: 100px;
+        width: 100%;
+      }
+
+    }
