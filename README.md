@@ -11,7 +11,6 @@ This project has a mixture of:
 
 <img width="1416" alt="Screen Shot 2020-12-20 at 9 55 46 PM" src="https://user-images.githubusercontent.com/40181569/102738566-20936380-4310-11eb-80be-672e9837b18a.png">
 
-![projects for coding-world project](https://www.icloud.com/iclouddrive/093vPxLUvvfdYus9UIaZ1vR3g#Screen_Shot_2020-12-20_at_9.55.57_PM "Work")
 
-<img width="1382" alt="Screen Shot 2020-12-20 at 9 55 57 PM" src="https://user-images.githubusercontent.com/40181569/102738497-ee820180-430f-11eb-9ad6-dd05476a25b2.png">
 
+<img width="1382" alt="Screen Shot 2020-12-20 at 9 56 08 PM" src="https://user-images.githubusercontent.com/40181569/102738700-854ebe00-4310-11eb-925b-db0565ea3660.png">
