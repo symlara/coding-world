@@ -7,3 +7,10 @@ This project has a mixture of:
 * CSS
 * CSS GRID
 * PSUEDO CLASSES
+
+
+![Footer to coding-world project](https://www.icloud.com/iclouddrive/0HmqIVl3XTq7NiyUDuA70koCA#Screen_Shot_2020-12-20_at_9.56.08_PM "Footer")
+
+![projects for coding-world project](https://www.icloud.com/iclouddrive/093vPxLUvvfdYus9UIaZ1vR3g#Screen_Shot_2020-12-20_at_9.55.57_PM "Work")
+
+![About me section for coding-world project](hhttps://www.icloud.com/iclouddrive/04aS9a7PjI9GsZ9LuboRJQXJw#Screen_Shot_2020-12-20_at_9.55.46_PM "About Me")
