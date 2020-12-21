@@ -9,7 +9,7 @@ This project has a mixture of:
 * PSUEDO CLASSES
 
 
-![Footer to coding-world project](https://www.icloud.com/iclouddrive/0HmqIVl3XTq7NiyUDuA70koCA#Screen_Shot_2020-12-20_at_9.56.08_PM "Footer")
+<img width="1416" alt="Screen Shot 2020-12-20 at 9 55 46 PM" src="https://user-images.githubusercontent.com/40181569/102738566-20936380-4310-11eb-80be-672e9837b18a.png">
 
 ![projects for coding-world project](https://www.icloud.com/iclouddrive/093vPxLUvvfdYus9UIaZ1vR3g#Screen_Shot_2020-12-20_at_9.55.57_PM "Work")
 
