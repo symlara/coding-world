@@ -13,5 +13,5 @@ This project has a mixture of:
 
 ![projects for coding-world project](https://www.icloud.com/iclouddrive/093vPxLUvvfdYus9UIaZ1vR3g#Screen_Shot_2020-12-20_at_9.55.57_PM "Work")
 
-![About me section for coding-world project] https://user-images.githubusercontent.com/40181569/102738343-74ea1380-430f-11eb-8cf3-0f3589ed94d5.png"About Me")
+ "https://user-images.githubusercontent.com/40181569/102738343-74ea1380-430f-11eb-8cf3-0f3589ed94d5.png"
 
