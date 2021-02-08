@@ -12,7 +12,9 @@
   padding: 0;
 }
   
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 /* header/ nav section */
@@ -67,7 +69,8 @@ header nav ul {
   header ul li a:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    border-radius: 16px;
+    border-radius: 10px;
+
   }
 
   /* header section end */
@@ -131,7 +134,7 @@ header nav ul {
    
    /* border box model for work section also */
 
-   .projects h2 {
+  .my-work h2 {
        font-size: 30px;
        padding-top: 30%;
        padding-left: 30px;
