@@ -1,91 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
     <!-- link to stylesheet goes here -->
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="assets/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aaliyah Symlar Portfolio</title>
 </head>
-<body>
+<body class="bg-gray black">
     <!-- navigation/header section begins -->
-    <header class="bg-black-90 fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l">
-        <nav class="f6 fw6 ttu tracked">
-          <a class="link dim white dib mr3" href="#what-i-do" title="About">About</a>
-          <a class="link dim white dib mr3" href="#my-work" title="Store">My Work</a>
-          <a class="link dim white dib" href="#socials" title="socials">Socials</a>
-          <a class="link dim white dib pl3" href="https://www.allenstone.com" title="officialSite" target="_blank">Official Site</a>
+    <header class="bg-black-90 w-100 ph3 pv3 pv4-ns ph4-m ph5-l">
+      <nav class="f6 fw6 ttu tracked">
+          <a class="link dim white dib mr3" href="#what-i-do" title="About">About Me</a>
+          <a class="link dim white dib mr3" href="#my-work" title="work">My Work</a>
+          <a class="link dim white dib" href="#my-contact-info" title="contact-info">Contact Me</a>
         </nav>
       </header>
         <!-- navigation section end -->
         
-        <section id="what-i-do" class="about-me">
-            <div class="bio">
-        <img src="assets/images/profile-image.png" />
-            <h2>About Me</h2>
-            <p>
+        <!-- about section -->
+        
+        <article class="pa3 pa5-ns" id="what-i-do">
+            <h1>About Me</h1>
+            <p class="measure lh-copy">
                 Hello there, and welcome to my site! My name is Aaliyah Symlar and I am an aspiring Developer from Tennessee. I graduated from Tennessee Tech University in 2017
                 with a Bachelor of Science degree and I've been working in the Communications field for 3 years now.
                 I'm currently working in the Communications Department for Vanderbilt University and my title is a Training and Support Specialist.
+            </p>
+            <p class="measure lh-copy">
                 I've been working there for 3 years now and I've always been fascinated with coding and all the details that go into being a Developer.
                 I hope that once you're done looking over this site you will be pleased with the work I've accomplished so far!
             </p>
-            </div>
-        </section>
+          </article>
 
-        <section id="my-work" class="my-work">
-                <h2>Work</h2>
+          <!-- my work section -->
+          <section id="my-work">
+            <h1 class="mh5">My Work</h1>
+          <div class="w-25 mr2 mh3 project_1">
+          <h3><a class="grow dib f3-ns no-underline white-90 pa7 allen" href="https://symlara.github.io/about-allen-project/">Allen Stone Project</a></h3>
+          </div>
+          <div class="w-100 w-25-ns pr5 mv3 mh4">
+            <a class="grow dib f3-ns no-underline white-90 pa6 bg-black" href="https://symlara.github.io/horiseon-fresh/">Horiseon</a>
+          </div>
+          </section>
+            
+           
+            
+     
 
-                <div class="container">
-                    <div class="grid-container">
-                      <div class="grid-item-1">
-                          <a href="https://symlara.github.io/run-buddy/">Run Buddy</a>
-                      </div>
-                        
-                      <div class="grid-item-2">
-                          
-                        <a href="https://symlara.github.io/about-allen-project/">Allen Stone Project</a>
-                        </div>
-                    </div>
-                    <div class="grid-container">
-                        <div class="grid-item-3">
-                            <a href="https://symlara.github.io/horiseon-fresh/">Horiseon</a>
-                        </div>
-                        <div class="grid-item-4">
-                            <a href="#">Project 4</a>
-                        </div>
-                        <div class="grid-item-5">
-                            <a href="#">Project 5</a>
-                        </div>
-                    </div>
-                    </div>
-                    
-                   
-        </section>
-
-        <section id="my-contact-info" class="contact-me">
-            <div class="contact">
-                <h2>Contact Me</h2>
-
-                <p>
-                    000-00-0000
-                </p>
-
-                <p>
-                    aaliyah@github.com
-                </p>
-
-                <p>
-                    <a href="www.linkedin.com/in/aaliyah-symlar-931213102">
-                    LinkedIn
-                </a></p>
-
-                <a href="https://github.com/symlara/"><p>
-                    GitHub
-                </a></p>
-            </div>
-        </section>
-
+        
+              <footer class="tc-l bg-center cover bg-black" id="my-contact-info">
+                <div class="w-100 ph3 pv3 bg-black-80">
+                <a class="link white-60 bg-transparent hover-white inline-flex items-center ma2 tc br2 pa2" href="https://github.com/symlara/" target="_blank" title="GitHub">
+                <svg class="dib h2 w2" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.083-.202-.358-1.015.077-2.117 0 0 .672-.215 2.2.82.638-.178 1.323-.266 2.003-.27.68.004 1.364.092 2.003.27 1.527-1.035 2.198-.82 2.198-.82.437 1.102.163 1.915.08 2.117.513.56.823 1.274.823 2.147 0 3.073-1.87 3.75-3.653 3.947.287.246.543.735.543 1.48 0 1.07-.01 1.933-.01 2.195 0 .215.144.463.55.385C13.71 14.53 16 11.534 16 8c0-4.418-3.582-8-8-8"/></svg>
+                <span class="f6 ml3 pr2">GitHub</span>
+                </a>
+                <a class="link white-60 bg-transparent hover-white inline-flex items-center ma2 tc br2 pa2" href="https://www.linkedin.com/in/aaliyah-symlar-931213102" target="_blank" title="LinkedIn">
+                <svg class="dib h2 w2" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M13.632 13.635h-2.37V9.922c0-.886-.018-2.025-1.234-2.025-1.235 0-1.424.964-1.424 1.96v3.778h-2.37V6H8.51V7.04h.03c.318-.6 1.092-1.233 2.247-1.233 2.4 0 2.845 1.58 2.845 3.637v4.188zM3.558 4.955c-.762 0-1.376-.617-1.376-1.377 0-.758.614-1.375 1.376-1.375.76 0 1.376.617 1.376 1.375 0 .76-.617 1.377-1.376 1.377zm1.188 8.68H2.37V6h2.376v7.635zM14.816 0H1.18C.528 0 0 .516 0 1.153v13.694C0 15.484.528 16 1.18 16h13.635c.652 0 1.185-.516 1.185-1.153V1.153C16 .516 15.467 0 14.815 0z" fill-rule="nonzero"/></svg>
+                <span class="f6 ml3 pr2">LinkedIn</span>
+                </a>
+                </div>
+                </footer>
+       
 </body>
 </html>
