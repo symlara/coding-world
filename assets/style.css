@@ -4,7 +4,11 @@ html {
 
 /* body styles */
 .bg-gray {
-  background-color: gray; 
+  background-color: #001B44; 
+}
+
+.bg-black {
+  color: gray;
 }
 
 .black {
@@ -32,7 +36,6 @@ html {
   background-size: cover;
 }
 
-.bg-light-blue {
-  background-color: #000000;
+#work {
+  background-image: url("./images/lifeform_background.jpg");
 }
-
