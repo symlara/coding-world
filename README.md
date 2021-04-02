@@ -7,6 +7,6 @@ This project has a mixture of:
 * CSS
 * CSS GRID
 * PSUEDO CLASSES
-* Tachyons CSS Framework
+* <a href="https://tachyons.io" target="_blank">Tachyons CSS Framework</a>
 
 
