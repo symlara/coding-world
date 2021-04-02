@@ -3,8 +3,9 @@ html {
 }
 
 /* body styles */
-.background {
-  background-image: url("./images/background-2462431_1280.jpg");
+.container {
+  background-image: url("./images/cyber-3400789_1280.jpg");
+  color: white;
 }
 
 .bg-black {
@@ -21,28 +22,37 @@ html {
   font-weight: bold;
 }
 
+#what-i-do p:hover {
+  color: #adaeae;
+}
+
 /* work section styles */
 #my-work {
   cursor: pointer;
+  
 }
 
 #my-work a:hover {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   float: top;
 }
 
 .allen {
   background-image: url("./images/allen-stone.jpg");
   background-size: cover;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 #work {
   background-image: url("./images/lifeform_background.jpg");
+  background-size: cover;
   border-radius: 8px;
+  text-align: center;
 }
 
 .blog {
   border-radius: 8px;
+  background-color: #061d2b;
+  text-align: center;
 }
