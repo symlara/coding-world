@@ -42,3 +42,7 @@ html {
   background-image: url("./images/lifeform_background.jpg");
   border-radius: 8px;
 }
+
+.blog {
+  border-radius: 8px;
+}
