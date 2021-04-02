@@ -7,5 +7,6 @@ This project has a mixture of:
 * CSS
 * CSS GRID
 * PSUEDO CLASSES
+* Tachyons CSS Framework
 
 
